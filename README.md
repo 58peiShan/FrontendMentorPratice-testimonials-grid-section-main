@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
- <img src="./screenshot.png" alt="screenshot">
+![Screenshot](https://imgur.com/z9Z7MZk)
 
 
 ### Built with
