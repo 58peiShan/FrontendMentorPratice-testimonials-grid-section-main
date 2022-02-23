@@ -1,11 +1,27 @@
-:root{
+*{
     margin: 0;
     padding: 0;
+}
+
+:root{
     --Moderate-violet:hsl(263, 55%, 52%);
     --Very-dark-grayish-blue:hsl(217, 19%, 35%);
     --Very-dark-blackish-blue:hsl(219, 29%, 14%);
     --Light-gray:hsl(0, 0%, 81%);
     --Light-grayish-blue:hsl(210, 46%, 95%);
+}
+
+body{
+    background-color: var(--Light-grayish-blue);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+p{
+    margin: 0;
+    font-size: 13px;
+    line-height:1.5rem;
+    font-weight: 500;
+    opacity: 70%;
 }
 
 .wrapper{
@@ -20,25 +36,23 @@
     margin: 80px auto;
 }
 
-h2{
+.comment{
     font-size: 20px;
     line-height:2rem;
 }
 
-h3{
+
+.name{
     margin: 0;
     font-size: 16px;
 }
 
-p,h6{
-    margin: 0;
-    font-size: 13px;
-    line-height:1.5rem;
-    font-weight: 500;
+.bg-dark img{
+    border:3px solid var(--Moderate-violet);
 }
 
-.bg-dark img{
-    border:3px solid rgb(160, 68, 196);
+.card1 img{
+    border:3px solid rgb(206, 161, 236);
 }
 
 img{
@@ -50,25 +64,9 @@ img{
     color: var(--Light-gray);
 }
 
-.bg-dark h6{
-    opacity: 70%;
-    font-weight: 500;
-}
-
-.bg-dark p{
-    opacity: 50%;
-    font-weight: 500;
-}
-
 .bg-light{
     color: var(--Very-dark-grayish-blue);
 }
-
-.bg-light h6{
-    opacity: 70%;
-    font-weight: 500;
-}
-
 
 .d-flex{
     display: flex;
@@ -83,6 +81,7 @@ img{
 
 .Verified-Graduate{
     opacity: 50%;
+    font-weight: 500;
 }
 
 .card{
@@ -90,7 +89,6 @@ img{
     border-radius: 10px;
     padding: 30px;
     margin:15px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
 
 } 
 
@@ -99,16 +97,13 @@ img{
     background-repeat: no-repeat;
     background-position: 90% 0%;
     grid-area:card1;
-    height: auto;
-    width: auto;
     background-color: var(--Moderate-violet);
 }
 
 .card2{
     background-color:var(--Very-dark-grayish-blue);
     grid-area:card2;
-    height: auto;
-    width: auto;
+
 }
 
 .card3{
